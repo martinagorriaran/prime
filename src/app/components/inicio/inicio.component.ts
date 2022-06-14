@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import {MenuItem} from 'primeng/api';
+
 
 @Component({
   selector: 'app-inicio',
@@ -8,6 +8,20 @@ import {MenuItem} from 'primeng/api';
   styleUrls: ['./inicio.component.css']
 })
 export class InicioComponent implements OnInit {
+  menuItems = [
+    {
+      label: 'Finder',
+    },
+    {
+      label: 'Edit',
+    },
+    {
+      label: 'View',
+    },
+    {
+      label: 'Go',
+    },
+  ];
 
   constructor() { }
 
