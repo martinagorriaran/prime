@@ -4,13 +4,41 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+
+import { InicioComponent } from './components/inicio/inicio.component';
+
+//PRIME
+import {MenubarModule} from 'primeng/menubar';
+
+import {ButtonModule} from 'primeng/button';
+
+
+/*
+import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { PrimerpComponent } from './components/dashboard/primerp/primerp.component';
+import { SegundpComponent } from './components/dashboard/segundp/segundp.component';
+import { TercerpComponent } from './components/dashboard/tercerp/tercerp.component';*/
+
+import { SharedModule } from 'primeng/api';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    InicioComponent,
+    
+
+    /*
+    DashboardComponent,
+    PrimerpComponent,
+    SegundpComponent,
+    TercerpComponent*/
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ButtonModule,
+    MenubarModule,
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]
