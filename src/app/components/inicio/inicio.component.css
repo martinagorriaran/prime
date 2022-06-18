@@ -1,0 +1,19 @@
+.container{
+background-color: gainsboro;
+}
+.maincontainer{
+background-color: chocolate; 
+}
+.leftcontainer{
+background-color: saddlebrown;
+}
+
+.title{
+    font-family: ui-sans-serif, system-ui,  "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 50px;
+}
+
+.phrase{
+    font-family: ui-sans-serif, system-ui,  "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 30px;
+}
