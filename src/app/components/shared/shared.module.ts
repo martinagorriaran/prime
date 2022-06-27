@@ -5,6 +5,9 @@ import { CommonModule } from '@angular/common';
 import {MenubarModule} from 'primeng/menubar';
 import {ImageModule} from 'primeng/image';
 import {ButtonModule} from 'primeng/button';
+import {CarouselModule} from 'primeng/carousel';
+import {InputTextModule} from 'primeng/inputtext';
+import {ProgressBarModule} from 'primeng/progressbar';
 
 
 @NgModule({
@@ -13,13 +16,18 @@ import {ButtonModule} from 'primeng/button';
     CommonModule,
     MenubarModule,
     ImageModule,
-    ButtonModule
+    ButtonModule,
+    CarouselModule,
+    InputTextModule,
+    ProgressBarModule
     
   ],
   exports: [
     MenubarModule,
     ImageModule,
-    ButtonModule
+    ButtonModule,
+    CarouselModule,
+    ProgressBarModule
   ]
 })
 export class SharedModule { }

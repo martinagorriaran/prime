@@ -1,19 +1,42 @@
 .container{
 background-color: gainsboro;
+padding-left: 10%;
+padding-right: 10%;
 }
 .maincontainer{
-background-color: chocolate; 
+background-color: white; 
 }
 .leftcontainer{
 background-color: saddlebrown;
 }
 
 .title{
-    font-family: ui-sans-serif, system-ui,  "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    font-size: 50px;
+font-family: "Untitled sans", sans-serif;
+color: #29363d;
+font-size: 52px;
+font-weight:700;
+line-height: 56PX;
+    
 }
 
 .phrase{
-    font-family: ui-sans-serif, system-ui,  "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    font-size: 30px;
+font-family: "Untitled sans", sans-serif;
+color: #6363f1;
+font-size: 28px;
+font-weight:700;
+line-height: 34PX;
 }
+
+.text{
+font-family: "Untitled sans", sans-serif;
+color: #656b8a;
+font-size: 19px;
+font-weight:200;
+line-height: 30PX;
+}
+
+.hola{
+    min-height: 100vh; 
+   
+}
+
