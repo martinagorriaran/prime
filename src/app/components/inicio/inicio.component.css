@@ -46,3 +46,24 @@ line-height: 30PX;
     width: 1385px;
     
 }
+
+#reseña{
+    height: 330px;
+}
+
+.cartaconhover:hover{
+    transform: translateY(-15px);
+
+
+}
+
+.cartaconhover{
+  width: 300px;
+  
+
+}
+
+.cards{
+    display: flex;        
+    justify-content: center;
+}

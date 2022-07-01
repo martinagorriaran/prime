@@ -5,7 +5,7 @@
 
         <!-- Apenas abrimos la pag vemos -->
 
-        <div class="hola">
+        <div class="hola relative">
 
             <div class="flex-1 bg-white-500 text-black font-bold text-center p-4 border-round  m-3 shadow-5">
 
@@ -18,25 +18,25 @@
                
             </div>
 
-            <div class="card">
+            <div class="card absolute bottom-0  ">
                 <div class="flex card-container indigo-container">
         
-                    <div class="flex-1 bg-white-500 text-black font-bold text-center p-4 border-round shadow-5 m-3 ">
-                        <p></p>
+                    <div class="flex-1 bg-white-500 text-black font-bold text-center p-4 border-round m-3 cartaconhover ">
+                        <p class="text">Desing</p>
                     </div>
         
-                    <div class="flex-1 bg-white-500 text-black font-bold text-center p-4 border-round shadow-5 m-3 ">
-                        <p></p>
+                    <div class="flex-1 bg-white-500 text-black font-bold text-center p-4 border-round m-3 cartaconhover ">
+                        <p class="text">Creatividad</p>
                     </div>
         
-                    <div class="flex-1 bg-white-500 text-black font-bold text-center p-4 border-round shadow-5 m-3 ">
-                        <p></p>
+                    <div class="flex-1 bg-white-500 text-black font-bold text-center p-4 border-round m-3 cartaconhover">
+                        <p class="text">Nosotros</p>
                     </div>
         
                 </div>
             </div>
 
-            <img src="../../../assets/img/people dancing.jpg" alt="" class="img">
+  
 
         </div>
 
@@ -59,11 +59,17 @@
                 </div>
                 
 
-                <div class="flex-1 bg-white-500 text-black font-bold text-center p-4 border-round shadow-5 m-3 ">
+                <div class="flex-1 bg-white-500 text-black font-bold text-center p-4 border-round shadow-5 m-3 relative">
 
-                    <input type="text" pInputText />
-                    <button pButton type="button" class="p-button-raised p-button-rounded p-button-outlined" label="ok" ></button>
-                   
+                    <div class="absolute top-50 left-50">
+                        <input type="text " pInputText /> 
+                        
+                    </div>
+
+                    <div class="absolute top-50 left-50">
+                        <button pButton type="button" class="p-button-raised p-button-rounded p-button-outlined " label="ok" ></button>
+                    </div>
+
                 </div>
 
             </div>
@@ -78,23 +84,34 @@
 
                 <div class="flex-1 bg-white-500 text-black font-bold text-center p-5 border-round shadow-5 m-5 ">
 
-                    <div class="shadow-5 m-3 surface-card text-center p-3 border-round-sm h-6rem w-9rem flex align-items-center justify-content-center font-semibold">
-                        
+                    <div >
+
+                        <div class="shadow-5 m-3 surface-card text-center p-3 border-round-sm h-6rem w-9rem flex align-items-center justify-content-center font-semibold flex flex-wrap">
+                            
+                        </div>
+
+                        <div >
+                        <h4 class="phrase">SAML</h4>
+                        <h5 class="text">Support all SAML and OIDC providers out-of-the-box</h5>
+                        </div>   
+
                     </div>
 
-                    <h4 class="phrase">SAML</h4>
-                    <h5 class="text">Support all SAML and OIDC providers out-of-the-box</h5>
-                   
                 </div>
 
                 <div class="flex-1 bg-white-500 text-black font-bold text-center p-5 border-round shadow-5 m-5 ">
 
-                    <div class="shadow-5 m-3 surface-card text-center p-3 border-round-sm h-6rem w-9rem flex align-items-center justify-content-center font-semibold">
-                        
-                    </div>
+                    <div >
 
-                    <h4 class="phrase">Multi-Facto-Auth</h4>
-                    <h5 class="text">Additional authentication factors using TOTP and SMS</h5>
+                        <div class="shadow-5 m-3 surface-card text-center p-3 border-round-sm h-6rem w-9rem flex align-items-center justify-content-center font-semibold flex flex-wrap">
+                            
+                        </div>
+
+                        <div >
+                        <h4 class="phrase">Multi-Facto-Auth</h4>
+                        <h5 class="text">Additional authentication factors using TOTP and SMS</h5>
+                        </div>    
+                    </div>
                    
                 </div>
 
@@ -103,44 +120,61 @@
 
         <div class="card">
             <div class="flex card-container indigo-container ">
-
+                
                 <div class="flex-1 bg-white-500 text-black font-bold text-center p-5 border-round shadow-5 m-5">
 
-                    <div class="shadow-5 m-3 surface-card text-center p-3 border-round-sm h-6rem w-9rem flex align-items-center justify-content-center font-semibold">
-                        
-                    </div>
+                    <div >
 
-                    <h4 class="phrase">EMAIL</h4>
-                    <h5 class="text">Use unlimited passwordless authentication through email</h5>
-                   
+                        <div class="shadow-5 m-3 surface-card text-center p-3 border-round-sm h-6rem w-9rem flex align-items-center justify-content-center font-semibold flex flex-wrap">
+                        
+                        </div>
+
+                        <div >
+                            <h4 class="phrase">EMAIL</h4>
+                            <h5 class="text">Use unlimited passwordless authentication through email</h5>
+                        </div>
+
+                    </div>
                 </div>
+                
 
                 <div class="flex-1 bg-white-500 text-black font-bold text-center p-5 border-round shadow-5 m-5 ">
 
-                    <div class="shadow-5 m-3 surface-card text-center p-3 border-round-sm h-6rem w-9rem flex align-items-center justify-content-center font-semibold">
-                        
+                    <div >
+
+                        <div class="shadow-5 m-3 surface-card text-center p-3 border-round-sm h-6rem w-9rem flex align-items-center justify-content-center font-semibold flex flex-wrap">
+                            
+                        </div>
+
+                        <div  >
+                        <h4 class="phrase">Auth</h4>
+                        <h5 class="text">Sign in with third-party providers like Google and Microsoft</h5>
+                        </div>
+
                     </div>
 
-                    <h4 class="phrase">Auth</h4>
-                    <h5 class="text">Sign in with third-party providers like Google and Microsoft</h5>
-                   
                 </div>
+            
 
             </div>
         </div>
 
-        <div class="scalein animation-duration-1000  justify-content-centerfont-bold text-white border-round m-2 px-5 py-3">
-            
-            <h1 class="phrase">¿Por que MySOUI?</h1>
+        <div class="hola">
 
-            <h1 class="title">Creamos experiencias no productos</h1>
-    
-            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, praesentium neque. Error placeat doloremque temporibus architecto fuga ut eaque nemo exercitationem distinctio dolorum, pariatur voluptatum aliquid provident rem in suscipit.</p>
+            <div class="scalein animation-duration-1000  justify-content-centerfont-bold text-white border-round m-2 px-5 py-3">
+                
+                <h1 class="phrase">¿Por que MySOUI?</h1>
+
+                <h1 class="title">Creamos experiencias no productos</h1>
         
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, praesentium neque. Error placeat doloremque temporibus architecto fuga ut eaque nemo exercitationem distinctio dolorum, pariatur voluptatum aliquid provident rem in suscipit.</p>
             
+                
 
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/JGDeOEb-uis" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/JGDeOEb-uis" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                
+            </div>
+
         </div>
 
         <h1 class="phrase text-center">Trabajos mas recientes</h1>
@@ -148,55 +182,65 @@
         <h1 class="phrase text-center">Lo que los clientes dicen de nosotros</h1>
         
         
+    
+        
+   
+    <div class="cards">
+        <div class="flex card-container indigo-container text-center">
 
-    <div class="card">
-        <div class="flex card-container indigo-container ">
+                <div class="cartaconhover pr-5">
+                    <p-card class="flex-1 bg-white-500 text-black font-bold border-round m-3 shadow-5" >
+                        <i class="pi pi-star-fill"></i>
+                            <i class="pi pi-star-fill"></i>
+                            <i class="pi pi-star-fill"></i>
+                            <i class="pi pi-star-fill"></i>
+                            <i class="pi pi-star-fill"></i>
+                           <p class="text">Facil instalacion. La aplicacion fue muy sencilla de conentar y todo en si funcionaba muy bien. Le recomendaria a cualquiera este producto Argentino.</p> 
+                        <ng-template pTemplate="footer">
+                            —Mario Chavez
+                        </ng-template>
+                    </p-card>
+                </div>
+                
+            
 
-            
-                <p-card class="flex-1 bg-white-500 text-black font-bold   border-round m-3">
-                    <i class="pi pi-star-fill"></i>
-                        <i class="pi pi-star-fill"></i>
-                        <i class="pi pi-star-fill"></i>
-                        <i class="pi pi-star-fill"></i>
-                        <i class="pi pi-star-fill"></i>
-                       <p class="text">Facil instalacion. La aplicacion fue muy sencilla de conentar y todo en si funcionaba muy bien. Le recomendaria a cualquiera este producto Argentino.</p> 
-                    <ng-template pTemplate="footer">
-                        Footer content here
-                    </ng-template>
-                </p-card>
-            
-
-            
-                <p-card class="flex-1 bg-white-500 text-black font-bold  border-round m-3 ">
+                <div class="cartaconhover pr-5">
+                    <p-card class="flex-1 bg-white-500 text-black font-bold  border-round m-3 shadow-5" >
                    
-                    <i class="pi pi-star-fill"></i>
                         <i class="pi pi-star-fill"></i>
-                        <i class="pi pi-star-fill"></i>
-                        <i class="pi pi-star-fill"></i>
-                        <i class="pi pi-star-fill"></i>
-                      <p class="text">La instalamos de camino a Neochea y solo tomo 5 minutos. Facil de usar, conectada directamente a la app. Amigable y util equipo.</p>  
-                    <ng-template pTemplate="footer">
-                        Footer content here
-                    </ng-template>
-                </p-card>
+                            <i class="pi pi-star-fill"></i>
+                            <i class="pi pi-star-fill"></i>
+                            <i class="pi pi-star-fill"></i>
+                            <i class="pi pi-star-fill"></i>
+                          <p class="text">La instalamos de camino a Neochea y solo tomo 5 minutos. Facil de usar, conectada directamente a la app. Amigable y util equipo.</p>  
+                        <ng-template pTemplate="footer">
+                            —Estella Alarcon
+                        </ng-template>
+                    </p-card>
+                </div>
+                
            
-
+                <div class="cartaconhover pr-5">
+                    <p-card class="flex-1 bg-white-500 text-black font-bold  border-round m-3 shadow-5">
+                        <i class="pi pi-star-fill"></i>
+                            <i class="pi pi-star-fill"></i>
+                            <i class="pi pi-star-fill"></i>
+                            <i class="pi pi-star-fill"></i>
+                            <i class="pi pi-star-fill"></i>
+                          <p class="text"> Tendira que haber compra MySOUI hace años. Simplifica todo y te da la certeza de que todo va a funcionar como corresponde. </p> 
+                          <!-- Simplifica todo y te da la certeza de que todo va a funcionar como corresponde. -->
+                        <ng-template pTemplate="footer">
+                            —Juan Poblete
+                        </ng-template>
+                    </p-card>
+               
+                </div>
             
-                <p-card class="flex-1 bg-white-500 text-black font-bold  border-round m-3 ">
-                    <i class="pi pi-star-fill"></i>
-                        <i class="pi pi-star-fill"></i>
-                        <i class="pi pi-star-fill"></i>
-                        <i class="pi pi-star-fill"></i>
-                        <i class="pi pi-star-fill"></i>
-                      <p class="text"> Tendira que haber compra MySOUI hace años. Simplifica todo y te da la certeza de que todo va a funcionar como corresponde.</p> 
-                    <ng-template pTemplate="footer">
-                        Footer content here
-                    </ng-template>
-                </p-card>
-           
+                
 
         </div>
     </div>
+
 
 
     <div class="leftcontainer">
