@@ -9,6 +9,10 @@ import { InicioComponent } from './components/inicio/inicio.component';
 
 //PRIME
 import {MenubarModule} from 'primeng/menubar';
+import {CardModule} from 'primeng/card';
+import {ProgressBarModule} from 'primeng/progressbar';
+import {ImageModule} from 'primeng/image';
+
 
 import {ButtonModule} from 'primeng/button';
 
@@ -38,7 +42,10 @@ import { SharedModule } from 'primeng/api';
     AppRoutingModule,
     ButtonModule,
     MenubarModule,
-    SharedModule
+    SharedModule,
+    CardModule,
+    ProgressBarModule,
+    ImageModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

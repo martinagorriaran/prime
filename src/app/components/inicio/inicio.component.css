@@ -37,6 +37,12 @@ line-height: 30PX;
 
 .hola{
     min-height: 100vh; 
-   
 }
-
+.reseñas{
+    height: 300px;
+}
+.img{
+    height: 650px;
+    width: 1385px;
+    
+}
