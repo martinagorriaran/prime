@@ -8,7 +8,7 @@ import { DashboardComponent } from './dashboard.component';
 import { PrimerpComponent } from './primerp/primerp.component';
 import { SegundpComponent } from './segundp/segundp.component';
 import { TercerpComponent } from './tercerp/tercerp.component';
-import { NavbarComponent } from './navbar/navbar.component';
+
 
 @NgModule({
   declarations: [
@@ -16,7 +16,7 @@ import { NavbarComponent } from './navbar/navbar.component';
     PrimerpComponent,
     SegundpComponent,
     TercerpComponent,
-    NavbarComponent
+    
   ],
   imports: [
 

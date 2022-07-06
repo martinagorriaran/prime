@@ -67,3 +67,28 @@ line-height: 30PX;
     display: flex;        
     justify-content: center;
 }
+
+#sub{
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+#sub:hover{
+    background-size: 100% 2px;
+}
+
+.footer {
+    padding-top: 66px;
+    padding-bottom: 24px;
+    background-color: #f9f9fb;
+    color: #8f96bd;
+}
+
+.page-padding {
+    padding-right: 56px;
+    padding-left: 56px;
+}
