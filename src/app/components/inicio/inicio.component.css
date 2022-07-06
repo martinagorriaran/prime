@@ -65,5 +65,11 @@ line-height: 30PX;
 
 .cards{
     display: flex;        
-    justify-content: center;
+    justify-content: space-evenly;
 }
+
+.space-evenly { 
+    display: flex;   
+    justify-content: space-evenly; 
+  }
+

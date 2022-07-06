@@ -179,6 +179,24 @@
 
         <h1 class="phrase text-center">Trabajos mas recientes</h1>
 
+        <div class="flex-container space-evenly">
+
+        <p-image src="../../../assets/img/imgggg.jpg" alt="Image" width="250">
+            <ng-template pTemplate="indicator">
+                Indicator Content
+            </ng-template>
+        </p-image>
+
+        <p-image src="../../../assets/img/imgggg22.jfif" alt="Image" width="250">
+            <ng-template pTemplate="indicator">
+                Indicator Content
+            </ng-template>
+        </p-image>
+
+       
+
+        </div>
+
         <h1 class="phrase text-center">Lo que los clientes dicen de nosotros</h1>
         
         
@@ -239,6 +257,14 @@
                 
 
         </div>
+    </div>
+
+    <div>
+        <p-carousel [value]="objetos" [numVisible]="1" [numScroll]="1">
+            <ng-template let-objeto pTemplate="item">
+                <img src="{{objeto}}" alt="">
+            </ng-template>
+        </p-carousel>
     </div>
 
 
