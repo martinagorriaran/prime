@@ -9,12 +9,13 @@ import { InicioComponent } from './components/inicio/inicio.component';
 const routes: Routes = [
   //todo lo qu esta aca es lo del login de tu pag anterior
   //{path: '', redirectTo: 'inicio', pathMatch: 'full'},
+  {path: 'inicio   nb ',component: InicioComponent},
   {path: '',component: InicioComponent},
   //{path: 'dashboard', loadChildren: ()=> import('./components/dashboard/dashboard.module').then(x => x.DashboardModule)},
  // {path: '**', redirectTo: 'login', pathMatch: 'full'},
   //esto es lo que tendria que estar en el dashboarouting por mientras lo dejo
   {path: 'primerp', component: PrimerpComponent},
-  {path: 'segundop', component: SegundpComponent},
+  {path: 'segundp', component: SegundpComponent},
   {path: 'tercerp', component: TercerpComponent}
 
 ];

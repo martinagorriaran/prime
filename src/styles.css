@@ -1,1 +1,40 @@
-/* You can add global styles to this file, and also import other style files */
+/* contenedores */
+
+.container{
+background-color: gainsboro;
+padding-left: 10%;
+padding-right: 10%;
+}
+
+.maincontainer{
+background-color: white; 
+}
+
+/* tipografias */
+
+.title{
+font-family: "Untitled sans", sans-serif;
+color: #29363d;
+font-size: 52px;
+font-weight:700;
+line-height: 56PX;
+    
+}
+
+
+
+.phrase{
+font-family: "Untitled sans", sans-serif;
+color: #6363f1;
+font-size: 28px;
+font-weight:700;
+line-height: 34PX;
+}
+
+.text{
+font-family: "Untitled sans", sans-serif;
+color: #656b8a;
+font-size: 19px;
+font-weight:200;
+line-height: 30PX;
+}

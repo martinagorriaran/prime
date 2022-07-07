@@ -77,11 +77,11 @@ export class InicioComponent implements OnInit {
         routerLink:"primerp",
       },
       {
-        label: 'Edit',
+        label: 'segundp',
         routerLink:'segundp'
       },
       {
-        label: 'View',
+        label: 'tercerp',
         routerLink: 'tercerp'
       },
       {
