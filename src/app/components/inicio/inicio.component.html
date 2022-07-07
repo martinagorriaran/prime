@@ -17,7 +17,7 @@
 
                 <h1 class="title p-3">Web Design Agency in Manchester</h1>
 
-              <button pButton type="button" class="p-button-raised p-button-rounded p-button-outlined " label="ok" ></button>
+              <button pButton type="button" class="p-button-raised p-button-rounded p-button-outlined " label="ok"  ></button>
         
                <h1 class="phrase p-3">A web design & branding agency in Manchester who care, build relationships, have industry experience, and win awards.</h1>
             
@@ -185,22 +185,76 @@
 
         <h1 class="phrase text-center">Trabajos mas recientes</h1>
 
-        <div class="flex-container space-evenly">
+        
+        
+        
+           
 
-        <p-image src="../../../assets/img/imgggg.jpg" alt="Image" width="700" >
-            <ng-template pTemplate="indicator">
-                Indicator Content
-            </ng-template>
-        </p-image>
+        <div class="card" style="background-color:#F9F9FB ;">
+            <div class="flex card-container indigo-container ">
+                
+                <div class="flex-1 bg-white-500 text-black font-bold text-center p-5 border-round shadow-5 m-5">
 
-        <p-image src="../../../assets/img/imgggg22.jfif" alt="Image" width="700">
-            <ng-template pTemplate="indicator">
-                Indicator Content
-            </ng-template>
-        </p-image>
+                    <div >
+                        <p-image src="../../../assets/img/imgggg22.jfif" alt="Image" width="700">
+                            <ng-template pTemplate="indicator">
+                                Indicator Content
+                            </ng-template>
+                        </p-image>
+                        
 
-       
+                    </div>
+                </div>
+                
 
+                <div class="flex-1 bg-white-500 text-black font-bold text-center p-5 border-round shadow-5 m-5 ">
+
+                    <div >
+
+                        <p>
+                            chauuuu
+                        </p>
+
+                    </div>
+
+                </div>
+            
+
+            </div>
+        </div>
+
+        <div class="card" style="background-color:#F9F9FB ;">
+            <div class="flex card-container indigo-container ">
+                
+                <div class="flex-1 bg-white-500 text-black font-bold text-center p-5 border-round shadow-5 m-5">
+
+                    <div >
+                        
+                        <p>
+                            chauuuu
+                        </p>
+
+                    </div>
+                </div>
+                
+
+                <div class="flex-1 bg-white-500 text-black font-bold text-center p-5 border-round shadow-5 m-5 ">
+
+                    <div >
+
+                       
+                        <p-image src="../../../assets/img/imgggg22.jfif" alt="Image" width="700">
+                            <ng-template pTemplate="indicator">
+                                Indicator Content
+                            </ng-template>
+                        </p-image>
+
+                    </div>
+
+                </div>
+            
+
+            </div>
         </div>
 
         <h1 class="phrase text-center">Lo que los clientes dicen de nosotros</h1>
@@ -210,7 +264,7 @@
         
    
     <div class="cards">
-        <div class="flex card-container indigo-container text-center">
+        <!-- <div class="flex card-container indigo-container text-center">
 
                 <div class="cartaconhover pr-5">
                     <p-card class="flex-1 bg-white-500 text-black font-bold border-round m-3 shadow-5" >
@@ -252,8 +306,8 @@
                             <i class="pi pi-star-fill"></i>
                             <i class="pi pi-star-fill"></i>
                           <p class="text"> Tendira que haber compra MySOUI hace años. Simplifica todo y te da la certeza de que todo va a funcionar como corresponde. </p> 
-                          <!-- Simplifica todo y te da la certeza de que todo va a funcionar como corresponde. -->
-                        <ng-template pTemplate="footer">
+                          Simplifica todo y te da la certeza de que todo va a funcionar como corresponde. -->
+                        <!-- <ng-template pTemplate="footer">
                             —Juan Poblete
                         </ng-template>
                     </p-card>
@@ -262,8 +316,25 @@
             
                 
 
-        </div>
+        </div> --> 
     </div>
+    
+
+    <p-carousel [value]="cartas" [numVisible]="4" [numScroll]="1" >
+        <ng-template let-carta pTemplate="item">
+            <p-card class="flex-1 bg-white-500 text-black font-bold  border-round m-3 shadow-5 ">
+                <i class="pi pi-star-fill"></i>
+                <i class="pi pi-star-fill"></i>
+                <i class="pi pi-star-fill"></i>
+                <i class="pi pi-star-fill"></i>
+                <i class="pi pi-star-fill"></i>
+                <p>{{carta.text}}</p>
+                <p>{{carta.nombre}}</p>
+            </p-card>
+                
+            
+        </ng-template>
+    </p-carousel>
 
 
 
@@ -288,6 +359,7 @@
     </div>
 
 </footer>
+<!-- <router-outlet></router-outlet> -->
 
 
 

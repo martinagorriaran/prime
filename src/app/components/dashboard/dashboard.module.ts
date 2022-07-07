@@ -16,13 +16,17 @@ import { TercerpComponent } from './tercerp/tercerp.component';
     PrimerpComponent,
     SegundpComponent,
     TercerpComponent,
-    
   ],
   imports: [
 
     CommonModule,
     SharedModule,
-    DashboardRoutingModule 
-  ]
+    DashboardRoutingModule,
+  ],
+
+  exports:[
+    PrimerpComponent,
+    SegundpComponent,
+    TercerpComponent,]
 })
 export class DashboardModule { }

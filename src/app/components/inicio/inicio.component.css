@@ -19,6 +19,8 @@ line-height: 56PX;
     
 }
 
+
+
 .phrase{
 font-family: "Untitled sans", sans-serif;
 color: #6363f1;
@@ -100,6 +102,11 @@ line-height: 30PX;
 .space-evenly { 
     display: flex;   
     justify-content: space-evenly; 
-  }
+}
+
+.p-menubar{
+    background-color: #29363d;
+}
+
 
 
