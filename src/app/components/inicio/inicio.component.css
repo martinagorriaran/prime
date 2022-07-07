@@ -65,7 +65,7 @@ line-height: 30PX;
 
 .cards{
     display: flex;        
-<<<<<<< HEAD
+
     justify-content: center;
 }
 
@@ -93,13 +93,13 @@ line-height: 30PX;
     padding-right: 56px;
     padding-left: 56px;
 }
-=======
-    justify-content: space-evenly;
-}
+
+    
+
 
 .space-evenly { 
     display: flex;   
     justify-content: space-evenly; 
   }
 
->>>>>>> 219e0ee8ffb8dff385042180f6d8d6c10a49604a
+
