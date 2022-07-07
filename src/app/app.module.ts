@@ -12,6 +12,9 @@ import {MenubarModule} from 'primeng/menubar';
 import {CardModule} from 'primeng/card';
 import {ProgressBarModule} from 'primeng/progressbar';
 import {ImageModule} from 'primeng/image';
+import {CarouselModule} from 'primeng/carousel';
+
+
 
 
 import {ButtonModule} from 'primeng/button';
@@ -46,6 +49,7 @@ import { SharedModule } from 'primeng/api';
     CardModule,
     ProgressBarModule,
     ImageModule,
+    CarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]

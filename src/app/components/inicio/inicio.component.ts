@@ -29,7 +29,12 @@ export class InicioComponent implements OnInit {
    
   }
 
-  
+  objetos:String[]=[
+
+    
+    "../../../assets/img/imgggg22.jfif",
+    "../../../assets/img/imgggg22.jfif"
+  ];
 
   ngOnInit(){
      
