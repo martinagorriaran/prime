@@ -7,13 +7,17 @@ import { MenuItem } from 'primeng/api';
   styleUrls: ['./menubar.component.css']
 })
 export class MenubarComponent implements OnInit {
-  
+
   menuItems:MenuItem[] = [];
 
   constructor() { }
 
   ngOnInit(): void {
     this.menuItems = [
+      {
+        label: 'inicio',
+        routerLink: 'inicio'
+      },
       {
         label: 'primerp',
         routerLink:"primerp",
@@ -26,9 +30,7 @@ export class MenubarComponent implements OnInit {
         label: 'tercerp',
         routerLink: 'tercerp'
       },
-      {
-        label: 'Go',
-      },
+      
     ]
 
   }

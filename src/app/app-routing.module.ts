@@ -9,7 +9,7 @@ import { InicioComponent } from './components/inicio/inicio.component';
 const routes: Routes = [
   //todo lo qu esta aca es lo del login de tu pag anterior
   //{path: '', redirectTo: 'inicio', pathMatch: 'full'},
-  {path: 'inicio   nb ',component: InicioComponent},
+  {path: 'inicio',component: InicioComponent},
   {path: '',component: InicioComponent},
   //{path: 'dashboard', loadChildren: ()=> import('./components/dashboard/dashboard.module').then(x => x.DashboardModule)},
  // {path: '**', redirectTo: 'login', pathMatch: 'full'},
