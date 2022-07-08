@@ -39,3 +39,18 @@ font-weight:200;
 line-height: 30PX;
 }
 
+.image{
+    width: 100%;
+    transition: 3s;
+}
+
+.image-container{
+    width: 700px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.image-container:hover .image{
+    transform: scale(1.2);
+}
+
