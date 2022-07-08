@@ -11,49 +11,33 @@ import { MenuService } from 'src/app/services/menu.service';
   encapsulation:ViewEncapsulation.None
 })
 export class InicioComponent implements OnInit {
-  menuItems:MenuItem[] = [];
+  
+  mostrar(){
+    this.display = true;
+  }
+  
+  display:Boolean = false;
 
   constructor() { 
 
    
   }
 
-  cars:String[]=[
-
-    
-    "../../../assets/img/imgggg22.jfif",
-    "../../../assets/img/imgggg.jpg",
-    "../../../assets/img/imgggg22.jfif"
-  ];
-
-  /*text:String[]=[
-    "dasadasfdsfds",
-    "dffdgfdgfd",
-    "gfdgfdgfd"
-
-  ];
-
-  nombre:String[]=[
-    "carlos",
-    "juan",
-    "pepe",
-  ];*/
-
   cartas:Object[] = [
     {
-      text:"fsdfsd",
+      text:"Facil instalacion. La aplicacion fue muy sencilla de conentar y todo en si funcionaba muy bien. Le recomendaria a cualquiera este producto Argentino.",
       nombre:"pepe",
     },
     {
-      text:"fsdfds",
+      text:"La instalamos de camino a Neochea y solo tomo 5 minutos. Facil de usar, conectada directamente a la app. Amigable y util equipo.",
       nombre:"juan",
     },
     {
-      text:"dsadasd",
+      text:"Tendria que haber compra MySOUI hace años. Simplifica todo y te da la certeza de que todo va a funcionar como corresponde. ",
       nombre:"mike",
     },
     {
-      text:"fds",
+      text:"Una ejecucion increible, gran capacidad de alamacenaje con este equipo",
       nombre:"msdadas",
     },
     {
@@ -71,23 +55,7 @@ export class InicioComponent implements OnInit {
 
   ngOnInit(){
 
-    this.menuItems = [
-      {
-        label: 'primerp',
-        routerLink:"primerp",
-      },
-      {
-        label: 'segundp',
-        routerLink:'segundp'
-      },
-      {
-        label: 'tercerp',
-        routerLink: 'tercerp'
-      },
-      {
-        label: 'Go',
-      },
-    ]
+    
      
   }
 }

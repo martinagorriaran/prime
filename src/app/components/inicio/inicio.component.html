@@ -1,7 +1,4 @@
- <p-menubar 
-[model] = "menuItems">
-    
-</p-menubar>
+ 
 
 
 
@@ -17,9 +14,13 @@
 
                 <h1 class="title p-3">Web Design Agency in Manchester</h1>
 
-              <button pButton type="button" class="p-button-raised p-button-rounded p-button-outlined " label="ok"  ></button>
+                <button pButton type="button" class="p-button-raised p-button-rounded p-button-outlined " label="ok" (click)="mostrar()" ></button>
+
+                <p-dialog header="Title" [(visible)]="display">
+                    Content
+                </p-dialog>
         
-               <h1 class="phrase p-3">A web design & branding agency in Manchester who care, build relationships, have industry experience, and win awards.</h1>
+                <h1 class="phrase p-3">A web design & branding agency in Manchester who care, build relationships, have industry experience, and win awards.</h1>
             
                
             </div>
@@ -167,7 +168,7 @@
 
         <div class="hola">
 
-            <div class="scalein animation-duration-1000  justify-content-centerfont-bold text-white border-round m-2 px-5 py-3">
+            <div class="scalein animation-duration-1000  justify-content-centerfont-bold text-white border-round m-2 px-5 py-3 text-center">
                 
                 <h1 class="phrase">¿Por que MySOUI?</h1>
 
@@ -195,13 +196,9 @@
                 
                 <div class="flex-1 bg-white-500 text-black font-bold text-center p-5 border-round shadow-5 m-5">
 
-                    <div >
-                        <p-image src="../../../assets/img/imgggg22.jfif" alt="Image" width="700">
-                            <ng-template pTemplate="indicator">
-                                Indicator Content
-                            </ng-template>
-                        </p-image>
-                        
+                    <div class="image-container">
+
+                       <img src="../../../assets/img/imgggg22.jfif" alt="" class="image">
 
                     </div>
                 </div>
@@ -211,7 +208,7 @@
 
                     <div >
 
-                        <p>
+                        <p class="text">
                             chauuuu
                         </p>
 
@@ -229,25 +226,18 @@
                 <div class="flex-1 bg-white-500 text-black font-bold text-center p-5 border-round shadow-5 m-5">
 
                     <div >
-                        
-                        <p>
+                        <p class="text">
                             chauuuu
                         </p>
-
                     </div>
                 </div>
                 
 
                 <div class="flex-1 bg-white-500 text-black font-bold text-center p-5 border-round shadow-5 m-5 ">
 
-                    <div >
+                    <div class="image-container">
 
-                       
-                        <p-image src="../../../assets/img/imgggg22.jfif" alt="Image" width="700">
-                            <ng-template pTemplate="indicator">
-                                Indicator Content
-                            </ng-template>
-                        </p-image>
+                        <img src="../../../assets/img/imgggg22.jfif" alt="" class="image">
 
                     </div>
 
@@ -264,64 +254,13 @@
         
    
     <div class="cards">
-        <!-- <div class="flex card-container indigo-container text-center">
-
-                <div class="cartaconhover pr-5">
-                    <p-card class="flex-1 bg-white-500 text-black font-bold border-round m-3 shadow-5" >
-                        <i class="pi pi-star-fill"></i>
-                            <i class="pi pi-star-fill"></i>
-                            <i class="pi pi-star-fill"></i>
-                            <i class="pi pi-star-fill"></i>
-                            <i class="pi pi-star-fill"></i>
-                           <p class="text">Facil instalacion. La aplicacion fue muy sencilla de conentar y todo en si funcionaba muy bien. Le recomendaria a cualquiera este producto Argentino.</p> 
-                        <ng-template pTemplate="footer">
-                            —Mario Chavez
-                        </ng-template>
-                    </p-card>
-                </div>
-                
-            
-
-                <div class="cartaconhover pr-5">
-                    <p-card class="flex-1 bg-white-500 text-black font-bold  border-round m-3 shadow-5" >
-                   
-                        <i class="pi pi-star-fill"></i>
-                            <i class="pi pi-star-fill"></i>
-                            <i class="pi pi-star-fill"></i>
-                            <i class="pi pi-star-fill"></i>
-                            <i class="pi pi-star-fill"></i>
-                          <p class="text">La instalamos de camino a Neochea y solo tomo 5 minutos. Facil de usar, conectada directamente a la app. Amigable y util equipo.</p>  
-                        <ng-template pTemplate="footer">
-                            —Estella Alarcon
-                        </ng-template>
-                    </p-card>
-                </div>
-                
-           
-                <div class="cartaconhover pr-5">
-                    <p-card class="flex-1 bg-white-500 text-black font-bold  border-round m-3 shadow-5">
-                        <i class="pi pi-star-fill"></i>
-                            <i class="pi pi-star-fill"></i>
-                            <i class="pi pi-star-fill"></i>
-                            <i class="pi pi-star-fill"></i>
-                            <i class="pi pi-star-fill"></i>
-                          <p class="text"> Tendira que haber compra MySOUI hace años. Simplifica todo y te da la certeza de que todo va a funcionar como corresponde. </p> 
-                          Simplifica todo y te da la certeza de que todo va a funcionar como corresponde. -->
-                        <!-- <ng-template pTemplate="footer">
-                            —Juan Poblete
-                        </ng-template>
-                    </p-card>
-               
-                </div>
-            
-                
-
-        </div> --> 
+      
     </div>
     
 
     <p-carousel [value]="cartas" [numVisible]="4" [numScroll]="1" >
         <ng-template let-carta pTemplate="item">
+
             <p-card class="flex-1 bg-white-500 text-black font-bold  border-round m-3 shadow-5 ">
                 <i class="pi pi-star-fill"></i>
                 <i class="pi pi-star-fill"></i>
@@ -341,6 +280,8 @@
     <div class="leftcontainer">
        <h5>Email Us ⏤ hello@madebyshape.co.uk</h5> 
     </div>
+
+    
 
     
 

@@ -13,9 +13,8 @@ import {CardModule} from 'primeng/card';
 import {ProgressBarModule} from 'primeng/progressbar';
 import {ImageModule} from 'primeng/image';
 import {CarouselModule} from 'primeng/carousel';
-
-
-
+import {DialogModule} from 'primeng/dialog';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import {ButtonModule} from 'primeng/button';
 
@@ -28,11 +27,13 @@ import { TercerpComponent } from './components/dashboard/tercerp/tercerp.compone
 
 import { SharedModule } from 'primeng/api';
 import { DashboardModule } from './components/dashboard/dashboard.module';
+import { MenubarComponent } from './components/menubar/menubar.component';
 
 @NgModule({
   declarations: [
      AppComponent,
      InicioComponent,
+     MenubarComponent,
     // PrimerpComponent,
     // SegundpComponent,
     // TercerpComponent
@@ -47,7 +48,9 @@ import { DashboardModule } from './components/dashboard/dashboard.module';
     ProgressBarModule,
     ImageModule,
     CarouselModule,
-    DashboardModule
+    DashboardModule,
+    DialogModule,
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
