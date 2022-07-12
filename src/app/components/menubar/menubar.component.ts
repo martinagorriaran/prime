@@ -23,11 +23,11 @@ export class MenubarComponent implements OnInit {
         routerLink:"primerp",
       },
       {
-        label: 'segundp',
+        label: 'Servicios',
         routerLink:'segundp'
       },
       {
-        label: 'tercerp',
+        label: 'Acerca',
         routerLink: 'tercerp'
       },
       

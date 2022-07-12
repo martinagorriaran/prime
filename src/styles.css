@@ -25,7 +25,7 @@ line-height: 56PX;
 
 .phrase{
 font-family: "Untitled sans", sans-serif;
-color: #6363f1;
+color: #852531;
 font-size: 28px;
 font-weight:700;
 line-height: 34PX;
@@ -45,8 +45,8 @@ line-height: 30PX;
 }
 
 .image-container{
-    width: 700px;
-    height: 400px;
+    /* width: 700px;
+    height: 400px; */
     overflow: hidden;
 }
 
