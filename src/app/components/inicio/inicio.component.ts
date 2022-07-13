@@ -3,11 +3,19 @@ import { MenuItem } from 'primeng/api';
 import { Menu } from 'src/app/interfaces/menu';
 import { MenuService } from 'src/app/services/menu.service';
 
+// import { ViewChild } from "@angular/core";
+// import { SwiperComponent } from "swiper/angular";
+
+// import SwiperCore, { EffectCoverflow, Pagination } from "swiper";
+
+// SwiperCore.use([EffectCoverflow, Pagination]);
+
 
 @Component({
   selector: 'app-inicio',
   templateUrl: './inicio.component.html',
   styleUrls: ['./inicio.component.css'],
+
   encapsulation:ViewEncapsulation.None
 })
 export class InicioComponent implements OnInit {
@@ -50,6 +58,7 @@ export class InicioComponent implements OnInit {
     },
 
   ];
+  
 
   
 

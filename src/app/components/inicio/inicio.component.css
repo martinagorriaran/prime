@@ -1,3 +1,6 @@
+/* @import "~swiper/css"; */
+/* @import "~swiper/css/effect-coverflow";
+@import "~swiper/css/pagination"; */
 
 .leftcontainer{
 background-color: saddlebrown;
@@ -84,10 +87,42 @@ background-color: saddlebrown;
 
 
 .p-carousel .p-carousel-indicators .p-carousel-indicator.p-highlight button {
-    background-color: #6363f1;
+    background-color: #852531;
 }
 
-.p-button.p-button-outlined{
-    color: #6363f1;
+
+
+.p-button.p-button-outlined {
+    background-color: transparent;
+    color: #852531;
+    border: 1px solid;
 }
+
+/* CARDS CON EFECTO COVERFLOW */
+
+section{
+position: relative;
+width: 100%;
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background: #6363f1;
+overflow: hidden;
+}
+
+
+.swiper-container {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
 

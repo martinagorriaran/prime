@@ -5,6 +5,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 
+import { FormsModule } from "@angular/forms";
+import { CommonModule } from '@angular/common';
+
 import { InicioComponent } from './components/inicio/inicio.component';
 
 //PRIME
@@ -19,6 +22,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {ButtonModule} from 'primeng/button';
 
 
+import { InputTextModule } from "primeng/inputtext";
+
+
 
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { PrimerpComponent } from './components/dashboard/primerp/primerp.component';
@@ -28,6 +34,7 @@ import { TercerpComponent } from './components/dashboard/tercerp/tercerp.compone
 import { SharedModule } from 'primeng/api';
 import { DashboardModule } from './components/dashboard/dashboard.module';
 import { MenubarComponent } from './components/menubar/menubar.component';
+
 
 @NgModule({
   declarations: [
@@ -51,6 +58,9 @@ import { MenubarComponent } from './components/menubar/menubar.component';
     DashboardModule,
     DialogModule,
     BrowserAnimationsModule,
+    CommonModule,
+    FormsModule,
+    InputTextModule
   ],
   providers: [],
   bootstrap: [AppComponent]

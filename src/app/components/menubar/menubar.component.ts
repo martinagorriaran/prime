@@ -30,7 +30,10 @@ export class MenubarComponent implements OnInit {
         label: 'Acerca',
         routerLink: 'tercerp'
       },
-      
+      {
+        label: 'Contactanos',
+        routerLink: 'cuartop'
+      },
     ]
 
   }

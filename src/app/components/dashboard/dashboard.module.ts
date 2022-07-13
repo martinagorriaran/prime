@@ -8,6 +8,7 @@ import { DashboardComponent } from './dashboard.component';
 import { PrimerpComponent } from './primerp/primerp.component';
 import { SegundpComponent } from './segundp/segundp.component';
 import { TercerpComponent } from './tercerp/tercerp.component';
+import { CuartopComponent } from './cuartop/cuartop.component';
 
 
 @NgModule({
@@ -16,6 +17,7 @@ import { TercerpComponent } from './tercerp/tercerp.component';
     PrimerpComponent,
     SegundpComponent,
     TercerpComponent,
+    CuartopComponent,
   ],
   imports: [
 
@@ -27,6 +29,8 @@ import { TercerpComponent } from './tercerp/tercerp.component';
   exports:[
     PrimerpComponent,
     SegundpComponent,
-    TercerpComponent,]
+    TercerpComponent,
+    CuartopComponent,
+  ]
 })
 export class DashboardModule { }

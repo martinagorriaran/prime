@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+
+import { CuartopComponent } from './components/dashboard/cuartop/cuartop.component';
 import { PrimerpComponent } from './components/dashboard/primerp/primerp.component';
 import { SegundpComponent } from './components/dashboard/segundp/segundp.component';
 import { TercerpComponent } from './components/dashboard/tercerp/tercerp.component';
@@ -16,7 +18,8 @@ const routes: Routes = [
   //esto es lo que tendria que estar en el dashboarouting por mientras lo dejo
   {path: 'primerp', component: PrimerpComponent},
   {path: 'segundp', component: SegundpComponent},
-  {path: 'tercerp', component: TercerpComponent}
+  {path: 'tercerp', component: TercerpComponent},
+  {path: 'cuartop', component: CuartopComponent},
 
 ];
 
