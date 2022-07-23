@@ -3,6 +3,7 @@ import { MenuItem } from 'primeng/api';
 import { Menu } from 'src/app/interfaces/menu';
 import { MenuService } from 'src/app/services/menu.service';
 
+
 // import { ViewChild } from "@angular/core";
 // import { SwiperComponent } from "swiper/angular";
 
@@ -19,6 +20,8 @@ import { MenuService } from 'src/app/services/menu.service';
   encapsulation:ViewEncapsulation.None
 })
 export class InicioComponent implements OnInit {
+
+  
   
   mostrar(){
     this.display = true;

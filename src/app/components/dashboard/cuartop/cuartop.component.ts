@@ -9,9 +9,14 @@ export class CuartopComponent implements OnInit {
 
   
 
+  
+
   constructor() { }
 
   ngOnInit(): void {
-  }
+  
+  };
 
+
+ 
 }

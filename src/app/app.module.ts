@@ -24,7 +24,7 @@ import {ButtonModule} from 'primeng/button';
 
 import { InputTextModule } from "primeng/inputtext";
 
-
+import {GMapModule} from 'primeng/gmap';
 
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { PrimerpComponent } from './components/dashboard/primerp/primerp.component';
@@ -60,7 +60,8 @@ import { MenubarComponent } from './components/menubar/menubar.component';
     BrowserAnimationsModule,
     CommonModule,
     FormsModule,
-    InputTextModule
+    InputTextModule,
+    GMapModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

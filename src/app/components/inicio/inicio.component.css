@@ -1,6 +1,6 @@
 /* @import "~swiper/css"; */
-/* @import "~swiper/css/effect-coverflow";
-@import "~swiper/css/pagination"; */
+ /* @import "~swiper/css/effect-coverflow";
+@import "~swiper/css/pagination";  */
 
 .leftcontainer{
 background-color: saddlebrown;
@@ -42,18 +42,7 @@ background-color: saddlebrown;
     justify-content: center;
 }
 
-#sub{
-    text-decoration: none;
-    background-image: linear-gradient(currentColor, currentColor);
-    background-position: 0% 100%;
-    background-repeat: no-repeat;
-    background-size: 0% 2px;
-    transition: background-size .3s;
-}
 
-#sub:hover{
-    background-size: 100% 2px;
-}
 
 .footer {
     padding-top: 66px;
@@ -123,6 +112,12 @@ overflow: hidden;
   background-size: cover;
   width: 300px;
   height: 300px;
+}
+
+.layout-footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
 
 
