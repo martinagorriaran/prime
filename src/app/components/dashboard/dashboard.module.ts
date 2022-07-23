@@ -9,6 +9,7 @@ import { PrimerpComponent } from './primerp/primerp.component';
 import { SegundpComponent } from './segundp/segundp.component';
 import { TercerpComponent } from './tercerp/tercerp.component';
 import { CuartopComponent } from './cuartop/cuartop.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import { CuartopComponent } from './cuartop/cuartop.component';
     SegundpComponent,
     TercerpComponent,
     CuartopComponent,
+    // FooterComponent,
   ],
   imports: [
 
@@ -31,6 +33,7 @@ import { CuartopComponent } from './cuartop/cuartop.component';
     SegundpComponent,
     TercerpComponent,
     CuartopComponent,
+    // FooterComponent,
   ]
 })
 export class DashboardModule { }

@@ -6,6 +6,7 @@ import { DashboardComponent } from './dashboard.component';
 import { PrimerpComponent } from './primerp/primerp.component';
 import { SegundpComponent } from './segundp/segundp.component';
 import { TercerpComponent } from './tercerp/tercerp.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 const routes: Routes = [
@@ -14,6 +15,7 @@ const routes: Routes = [
   {path:'',component: PrimerpComponent},
   {path:'segundop',component: SegundpComponent },
   {path:'tercerp',component: TercerpComponent },
+  // {path: 'footer',component: FooterComponent},
 ]}
 
 ];

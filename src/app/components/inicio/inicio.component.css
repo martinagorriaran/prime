@@ -6,6 +6,10 @@
 background-color: saddlebrown;
 }
 
+.page-padding {
+    padding-right: 56px;
+    padding-left: 56px;
+}
 
 
 .hola{

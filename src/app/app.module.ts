@@ -34,6 +34,7 @@ import { TercerpComponent } from './components/dashboard/tercerp/tercerp.compone
 import { SharedModule } from 'primeng/api';
 import { DashboardModule } from './components/dashboard/dashboard.module';
 import { MenubarComponent } from './components/menubar/menubar.component';
+import { FooterComponent } from './components/dashboard/footer/footer.component';
 
 
 @NgModule({
@@ -41,6 +42,7 @@ import { MenubarComponent } from './components/menubar/menubar.component';
      AppComponent,
      InicioComponent,
      MenubarComponent,
+     FooterComponent,
     // PrimerpComponent,
     // SegundpComponent,
     // TercerpComponent
