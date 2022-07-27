@@ -91,37 +91,3 @@ background-color: saddlebrown;
     border: 1px solid;
 }
 
-/* CARDS CON EFECTO COVERFLOW */
-
-section{
-position: relative;
-width: 100%;
-min-height: 100vh;
-display: flex;
-justify-content: center;
-align-items: center;
-background: #6363f1;
-overflow: hidden;
-}
-
-
-.swiper-container {
-  width: 100%;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
-.swiper-slide {
-  background-position: center;
-  background-size: cover;
-  width: 300px;
-  height: 300px;
-}
-
-.layout-footer {
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
-
-

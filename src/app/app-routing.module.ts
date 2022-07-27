@@ -5,6 +5,7 @@ import { Footer } from 'primeng/api';
 import { CuartopComponent } from './components/dashboard/cuartop/cuartop.component';
 import { FooterComponent } from './components/dashboard/footer/footer.component';
 import { PrimerpComponent } from './components/dashboard/primerp/primerp.component';
+import { PruebasComponent } from './components/dashboard/pruebas/pruebas.component';
 import { SegundpComponent } from './components/dashboard/segundp/segundp.component';
 import { TercerpComponent } from './components/dashboard/tercerp/tercerp.component';
 
@@ -23,6 +24,7 @@ const routes: Routes = [
   {path: 'tercerp', component: TercerpComponent},
   {path: 'cuartop', component: CuartopComponent},
   {path: 'footer', component: FooterComponent},  
+  {path: 'pruebas', component: PruebasComponent},
 
 ];
 

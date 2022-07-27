@@ -10,6 +10,7 @@ import { SegundpComponent } from './segundp/segundp.component';
 import { TercerpComponent } from './tercerp/tercerp.component';
 import { CuartopComponent } from './cuartop/cuartop.component';
 import { FooterComponent } from './footer/footer.component';
+import { PruebasComponent } from './pruebas/pruebas.component';
 
 
 @NgModule({
@@ -19,6 +20,7 @@ import { FooterComponent } from './footer/footer.component';
     SegundpComponent,
     TercerpComponent,
     CuartopComponent,
+    PruebasComponent,
     // FooterComponent,
   ],
   imports: [
